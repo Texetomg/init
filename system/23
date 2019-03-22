@@ -1,0 +1,6 @@
+Explain how connect yourself as new user. (With graphic session and ssh session)
+***
+graphic:
+    menu->leave->switch user
+ssh:
+    ssh username@host ip
