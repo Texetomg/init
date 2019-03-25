@@ -2,6 +2,6 @@ Identify and display the Ethernet interface characteristics:
     (a) Identify broadcast address
     (b) Identify all IP adresses which are part of the same subnet
 ***
-ifconfig | grep 'broadcast' | awk '{print $2}'
+ifconfig | grep 'broadcast' | awk '{print $6}'
 ***
 arp -a

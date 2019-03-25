@@ -1,5 +1,4 @@
-Three’s a Charm. Write a script of you choice.
 #!/bin/bash
-du -S /var/log/ | sort -rn |
+du -S $1 | sort -rn |
 sed '{6, $D; =}' |
 awk '{printf $1 ":" "\t" $2 "\t" $3 "\n"}'
