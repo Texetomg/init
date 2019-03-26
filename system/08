@@ -1,4 +1,4 @@
 What file contains the RSA keys of systems that are authorized to connect via SSH?
 ***
 ssh-keygen -t rsa -b 2048
-cat home/user/.ssh/id_rsa
+cat ~/.ssh/id_rsa
